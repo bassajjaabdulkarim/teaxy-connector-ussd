@@ -5,7 +5,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 
 // These will be pulled from your Render Environment Variables
-const SHOP_DOMAIN = process.env.SHOP_DOMAIN || 'teaxy.myshopify.com';
+const SHOP_DOMAIN = process.env.SHOP_DOMAIN || 'iicq0i-jc.myshopify.com';
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
 
