@@ -22,7 +22,7 @@ app.post('/ussd', async (req, res) => {
             });
             const accessToken = tokenRes.data.access_token;
 
-            const productRes = await axios.get(`https://${SHOP_DOMAIN}/admin/api/2026-01/products.json`, {
+            const productRes = await axios.get(`https://${SHOP_DOMAIN}/admin/api/2024-04/products.json`, {
                 headers: { 'X-Shopify-Access-Token': accessToken }
             });
            
