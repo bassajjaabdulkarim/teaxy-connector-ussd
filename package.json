@@ -1,12 +1,25 @@
+
+
 {
-  "name": "teaxy-ussd-bridge",
+  "name": "shopify-ussd-bridge",
   "version": "1.0.0",
+  "description": "USSD Bridge for Shopify using Africa's Talking and Render",
   "main": "index.js",
-  "dependencies": {
-    "axios": "^1.6.0",
-    "express": "^4.18.2"
-  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^11.0.0",
+    "africastalking": "^0.6.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
